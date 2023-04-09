@@ -1,0 +1,44 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 9%;
+  background-color: #000;
+  color: aliceblue;
+}
+
+.nav-link{
+  margin-left: 1rem;
+  color: aliceblue;
+  transition: all .3s linear;
+}
+
+.nav-link:hover{
+  background: #fff;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  color:#000;
+  
+}
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.user p {
+  margin-right: .5rem;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.user button {
+  padding: .4rem 2rem;
+  cursor: pointer;
+}
