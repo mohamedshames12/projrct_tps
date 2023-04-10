@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav>
       <Link  to="/" className="nav-link">Home</Link>
       <Link  to="/contact" className="nav-link">Contact</Link>
-        {user ? "" :    <Link  to="/login" className="nav-link">Login</Link>}
+        {user ? <Link to='/create' className="nav-link">Create Post</Link> :    <Link  to="/login" className="nav-link">Login</Link>}
       </nav>
       {user && (
            <div className='user'>

@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Navber from './components/Navber';
+import Create from './pages/post/Create';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/contact' element={<Contact />}/>
+          <Route path='/create' element={<Create />}/>
           <Route path='/login' element={<Login />}/>
         </Routes>
       </BrowserRouter>
