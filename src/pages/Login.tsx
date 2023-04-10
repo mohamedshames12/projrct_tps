@@ -19,8 +19,9 @@ const Login = () => {
         <>{navigare("/")}</>
       ) : (
         <>
-          Login
-          <div>
+        
+          <div className="login">
+            <h4>if you want to login with this app, just login by google </h4>
             <button onClick={signInWithGoogle}>Sign in with Google</button>
           </div>
         </>

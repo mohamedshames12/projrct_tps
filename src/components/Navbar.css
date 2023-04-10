@@ -41,4 +41,31 @@
 .user button {
   padding: .4rem 2rem;
   cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(137, 34, 34);
+  border: none;
+  color: #ffff;
+  transition: all .3s linear;
+}
+
+.user button:hover{
+  background: red;
+}
+
+
+@media (max-width:500px) {
+
+  .container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 3%;
+    }
+    
+    .nav-link{
+      margin-left: 1rem;
+
+    }
+    
 }
